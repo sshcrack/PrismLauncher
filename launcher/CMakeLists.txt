@@ -960,6 +960,12 @@ SET(LAUNCHER_SOURCES
     ui/pages/modplatform/modrinth/ModrinthModel.cpp
     ui/pages/modplatform/modrinth/ModrinthModel.h
 
+
+    ui/pages/modplatform/snotrinth/SnotrinthPage.cpp
+    ui/pages/modplatform/snotrinth/SnotrinthPage.h
+    ui/pages/modplatform/Snotrinth/SnotrinthModel.cpp
+    ui/pages/modplatform/Snotrinth/SnotrinthModel.h
+
     ui/pages/modplatform/technic/TechnicModel.cpp
     ui/pages/modplatform/technic/TechnicModel.h
     ui/pages/modplatform/technic/TechnicPage.cpp
@@ -1147,6 +1153,7 @@ qt_wrap_ui(LAUNCHER_UI
     ui/pages/modplatform/ImportPage.ui
     ui/pages/modplatform/OptionalModDialog.ui
     ui/pages/modplatform/modrinth/ModrinthPage.ui
+    ui/pages/modplatform/snotrinth/SnotrinthPage.ui
     ui/pages/modplatform/technic/TechnicPage.ui
     ui/widgets/InstanceCardWidget.ui
     ui/widgets/CustomCommands.ui

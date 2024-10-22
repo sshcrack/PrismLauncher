@@ -62,6 +62,7 @@
 #include "ui/pages/modplatform/flame/FlamePage.h"
 #include "ui/pages/modplatform/legacy_ftb/Page.h"
 #include "ui/pages/modplatform/modrinth/ModrinthPage.h"
+#include "ui/pages/modplatform/snotrinth/SnotrinthPage.h"
 #include "ui/pages/modplatform/technic/TechnicPage.h"
 #include "ui/widgets/PageContainer.h"
 
@@ -177,6 +178,7 @@ QList<BasePage*> NewInstanceDialog::getPages()
     pages.append(new LegacyFTB::Page(this));
     pages.append(new FTBImportAPP::ImportFTBPage(this));
     pages.append(new ModrinthPage(this));
+    pages.append(new SnotrinthPage(this, QString("http://localhost:3000")));
     pages.append(new TechnicPage(this));
 
     return pages;
